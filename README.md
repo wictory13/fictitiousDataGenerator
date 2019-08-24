@@ -11,7 +11,6 @@
 На вход приложению подаётся база данных: json-файл со ссылками на csv-файлы, в которых хранятся данные
 
 CLI: py generator.py database.json -w
-
 или: py generator.py database.jsom --count 5 --gender male  
 
 Более подробную информацию можно узнать в справке по ключу -h или --help.
