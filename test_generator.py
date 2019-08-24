@@ -46,13 +46,6 @@ class TestClass:
         start = end - timedelta(100 * 365.2425)
         assert birth_date >= start <= end
 
-    def test_calculate_age(self):
-        assert birth_date_data_generator.calculate_age('13.10.1999') == 19
-        assert birth_date_data_generator.calculate_age('28.4.1948') == 70
-        assert birth_date_data_generator.calculate_age('4.12.1970') == 47
-        assert birth_date_data_generator.calculate_age('19.7.1995') == 23
-        assert birth_date_data_generator.calculate_age('1.1.2002') == 16
-
     def test_generate_address(self):
         address = address_generator.generate_address(
             data['cities'], data['streets'])
