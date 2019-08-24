@@ -6,7 +6,7 @@ import json
 
 
 def create_parser():
-    parser = argparse.ArgumentParser(description='Generate fictious data',
+    parser = argparse.ArgumentParser(description='Generate fictitious data',
                                      epilog='(c) Piskunova Victoria 2018')
     parser.add_argument('database', type=str, help='file with data links')
     parser.add_argument('-e', '--encoding', type=str,
