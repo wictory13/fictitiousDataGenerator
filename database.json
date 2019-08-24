@@ -1,0 +1,17 @@
+{
+  "cities": ["cities.csv"],
+  "names": {
+    "female": ["female_names.csv"],
+    "male": ["male_names.csv"]
+  },
+  "surname": {
+    "female": ["female_surname.csv"],
+    "male": ["male_surname.csv"]
+  },
+  "patronymic": {
+    "female": ["female_patronymic.csv"],
+    "male": ["male_patronymic.csv"]
+  },
+  "jobs": ["jobs.csv"],
+  "streets": ["streets.csv"]
+}
